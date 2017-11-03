@@ -14,3 +14,9 @@ Requirements:
 10. Implementation of lightweight security solutions (constrained DTLS, Diet-Foo)
 
 The aim is not to produce a ultra thin middleware and compare on size front. But to provide a secure middleware which has certain features which are more practical for constrained nodes.
+
+Design elements:
+1. Netlink like mechanism for querying/extending the information
+2. register protocol handler at all layers.
+3. each of the protocol can be used standalone
+4. not tightly coupled to a particular OS/platform..
